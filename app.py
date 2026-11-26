@@ -48,14 +48,15 @@ st.sidebar.caption("v0.3 · Explainable diagnostic prototype")
 if page == "Website Scanner":
     st.title("Website Scanner")
     st.caption("Crawl an authorised website and calculate real page-to-page similarity. SEONEX never changes the target site.")
-    use_demo = st.toggle("Use bundled local demo", value=True, help="Start the demo server first, then scan http://localhost:8000.")
+    use_demo = st.toggle("Use bundled local demo (local development only)", value=False, help="Enable only when the demo server is running on the same computer.")
     with st.form("scan"):
-        url = st.text_input("Website URL", value="http://localhost:8000" if use_demo else "", placeholder="https://your-authorised-site.example")
+        url = st.text_input("Website URL", value="http://localhost:8000" if use_demo else "", placeholder="https://seonex2026.github.io/seonex/")
         max_pages = st.slider("Maximum pages", 2, 50, 12)
         permitted = st.checkbox("I own this website or have permission to crawl it.")
         submitted = st.form_submit_button("Scan website")
     if submitted:
         if not permitted: st.error("Please confirm authorisation before running a scan.")
+        elif not url.strip(): st.error("Enter the public website URL you want to analyse.")
         else:
             try:
                 with st.spinner("Crawling pages and computing explainable similarity…"):
