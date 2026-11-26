@@ -1,1 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>http://localhost:8000/</loc></url><url><loc>http://localhost:8000/events.html</loc></url><url><loc>http://localhost:8000/upcoming-events.html</loc></url><url><loc>http://localhost:8000/event-planning.html</loc></url><url><loc>http://localhost:8000/activities.html</loc></url><url><loc>http://localhost:8000/activity-guides.html</loc></url><url><loc>http://localhost:8000/activity-comparison.html</loc></url><url><loc>http://localhost:8000/services.html</loc></url><url><loc>http://localhost:8000/guides.html</loc></url><url><loc>http://localhost:8000/contact.html</loc></url></urlset>
+<!-- <?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>http://localhost:8000/</loc></url><url><loc>http://localhost:8000/events.html</loc></url><url><loc>http://localhost:8000/upcoming-events.html</loc></url><url><loc>http://localhost:8000/event-planning.html</loc></url><url><loc>http://localhost:8000/activities.html</loc></url><url><loc>http://localhost:8000/activity-guides.html</loc></url><url><loc>http://localhost:8000/activity-comparison.html</loc></url><url><loc>http://localhost:8000/services.html</loc></url><url><loc>http://localhost:8000/guides.html</loc></url><url><loc>http://localhost:8000/contact.html</loc></url></urlset> -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://seonex2026.github.io/seonex/</loc>
+  </url>
+  <url>
+    <loc>https://seonex2026.github.io/seonex/events.html</loc>
+  </url>
+  <url>
+    <loc>https://seonex2026.github.io/seonex/upcoming-events.html</loc>
+  </url>
+  <url>
+    <loc>https://seonex2026.github.io/seonex/event-planning.html</loc>
+  </url>
+  <url>
+    <loc>https://seonex2026.github.io/seonex/activities.html</loc>
+  </url>
+  <url>
+    <loc>https://seonex2026.github.io/seonex/activity-guides.html</loc>
+  </url>
+  <url>
+    <loc>https://seonex2026.github.io/seonex/activity-comparison.html</loc>
+  </url>
+  <url>
+    <loc>https://seonex2026.github.io/seonex/services.html</loc>
+  </url>
+  <url>
+    <loc>https://seonex2026.github.io/seonex/guides.html</loc>
+  </url>
+  <url>
+    <loc>https://seonex2026.github.io/seonex/contact.html</loc>
+  </url>
+</urlset>
